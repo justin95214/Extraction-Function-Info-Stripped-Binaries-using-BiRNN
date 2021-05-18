@@ -126,7 +126,8 @@
     - Window나 arm(모바일 아키텍쳐) 의 경우에는 어떨까 하는 궁금증
 
 ### 13. 바이너리 컴파일러별 옵션별 분류 탐지 모델과 함수 정보 추출 모델 pipline 실행프로그램 제작완료(~20.10.26) 
-
+다운로드 링크
+https://drive.google.com/drive/folders/1Ryfnt_CM2J8cL2yU2hB_xtr-P97viC9N?usp=sharing
 
 ### 14.  연구 종료 (~ 20.10.26)
   - kfold 에서 train (적당한 epoch 학습) + validation 으로 변경
