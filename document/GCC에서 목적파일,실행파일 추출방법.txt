@@ -1,0 +1,51 @@
+<원리>
+형식 (함수명 +바이너리시작 ~~바이너리 끝)과 함수명 있는 텍스트 파일추출
+
+패키지파일로 이동하여 
+오브젝트 파일을 한곳에 모은다
+find . -name ".o" -exec cp {} 저장할경로 \;
+
+
+(함수명 + 바이너리)
+추출) for i in $(objdump -d *.o | cut -f2 | grep -v "elf" | grep -v "section" | cut -f2 -d "<"); do echo -n " "$i; done > gcc3_0_32.txt
+한경로에 저장) cp $(pwd)/텍스트파일 저장할경로
+
+
+(함수명 뽑는용)
+추출) for i in $(objdump -d *.o | grep ":" | cut -f2 | grep " <" | cut -f2 -d "<"); do echo -n " "$i; done > gcc3_0_32W.txt
+
+한경로에 저장) cp $(pwd)/텍스트파일 저장할경로
+
+<파이썬 코드>
+형식 (함수명 +바이너리시작 ~~바이너리 끝) 반복 /  (함수명 + 바이너리시작/끝) - ( 함수명 ) 하면서
+버전 )  함수명 기준으로 함수명 다음에 바이너리 시작이므로 1을 체크 / 그러면 함수명앞에는 이전 함수의 바이너리 끝이므로 2를 체크
+나머지는 0
+
+<엑셀>
+1. ABC컬럼으로 엑셀로 추출하게되는데 A컬럼을 날림 >> AB컬럼으로 된다
+2. 기존 A컬럼을 날린 AB에서 F5버튼을 눌러 이동설정이 뜨게됨 >> 밑에 옵션 버튼 있음
+3. 빈 셀(K)에 체크
+4. 그리고 빈셀에 이동하게 되는데 이동한 빈셀 아무 한곳에 오른쪽 버튼 누르고 삭제 를 선택
+5. 행전체를 삭제
+6. 저장 
+
+#### .o 파일 모으는법
+
+(0) mkdir nm
+(1) find . -name "*.o" -exec cp {} $(pwd)/nm \;
+(2) cd nm
+(3) for i in $(objdump -d *.o | cut -f2 | grep -v "elf" | grep -v "section" | cut -f2 -d "<"); do echo -n " "$i; done > gcc3_0_32.txt
+(4) for i in $(objdump -d *.o | grep ":" | cut -f2 | grep " <" | cut -f2 -d "<"); do echo -n " "$i; done > gcc7_1_32W.txt
+(5) mv gcc7_0_32.txt ../../../data
+(6) mv gcc7_0_32W.txt ../../../data
+
+find . -executable -exec cp -r {} /home/seonmin/gukboyeon/binutils_exe/binutils-2.34-gcc3-O0-x86/nm \;
+
+#### .exec 파일 모으는법
+(0) mkdir nm
+(1) find . -executable -type f -exec cp {} $(pwd)/nmexe \;
+(2) cd nm
+(3) for i in $(objdump -d *.exec | cut -f2 | grep -v "elf" | grep -v "section" | cut -f2 -d "<"); do echo -n " "$i; done > gcc3_0_32.txt
+(4) for i in $(objdump -d *.exec | grep ":" | cut -f2 | grep " <" | cut -f2 -d "<"); do echo -n " "$i; done > gcc7_1_32W.txt
+(5) mv gcc7_0_32.txt ../../../data
+(6) mv gcc7_0_32W.txt ../../../data
