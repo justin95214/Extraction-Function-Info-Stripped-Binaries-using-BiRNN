@@ -1,8 +1,9 @@
 ## ■ 기계학습 기반의 함수정보 구분 
 
-### ■ 함수 정보 추출기술
-### ■ Class Imbalance Problem(Long-Tailed Problem)/Few Shot learning
-### ■ Bidirectional RNN model
+### ■ Core Algorithm Skill
+#### 1. 함수 정보 추출기술
+#### 2. Class Imbalance Problem(Long-Tailed Problem)/Few Shot learning
+#### 3. Bidirectional RNN model
 
 ### ■ 필요성 및 목표
     - 기계학습 기반의 스트립된(stripped) 리눅스 바이너리 분석 기술
