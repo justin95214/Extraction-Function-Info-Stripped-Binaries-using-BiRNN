@@ -75,7 +75,7 @@
     - 2차 : Many-to-Many BIRNN Model구현
 
 
-### 5. 불균형 데이터 문제 Imbalanced Data(Long-Tailed Problem)에 대한 솔루션 N-byte기법 제시  (~ 20.06.23)
+### [5. 불균형 데이터 문제 Imbalanced Data(Long-Tailed Problem)에 대한 솔루션 N-byte기법 제시  (~ 20.06.23)](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Model)
 
   
 
