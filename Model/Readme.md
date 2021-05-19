@@ -42,8 +42,8 @@
 
 ![N-byte%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%2007432305420b4a5ba50090c857d3eea1/Untitled%202.png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled%202.png)
 
-![N-byte%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%2007432305420b4a5ba50090c857d3eea1/Untitled%203.png](N-byte%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%2007432305420b4a5ba50090c857d3eea1/Untitled%203.png)
+![N-byte%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%2007432305420b4a5ba50090c857d3eea1/Untitled%203.png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled%203.png)
 
 - 함수 타입이 아닌 바이너리를 넣기 전후 데이터 구성 모습
 
-![N-byte%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%2007432305420b4a5ba50090c857d3eea1/Untitled%204.png](N-byte%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%2007432305420b4a5ba50090c857d3eea1/Untitled%204.png)
+![N-byte%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%2007432305420b4a5ba50090c857d3eea1/Untitled%204.png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled%204.png)
