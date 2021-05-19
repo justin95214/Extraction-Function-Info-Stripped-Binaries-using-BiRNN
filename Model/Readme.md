@@ -20,7 +20,7 @@
 
 - GCC 컴파일러별, 최적화 옵션별 데이터 크기, 함수의 특징
 
-![N-byte%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%2007432305420b4a5ba50090c857d3eea1/Untitled.png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled%201.png)
+![N-byte%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%2007432305420b4a5ba50090c857d3eea1/Untitled.png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled.png)
 
 ## 추출한 데이터 특징
 
@@ -38,9 +38,9 @@
 
 - 최적화 옵션별 함수 시작 정보 패턴 수
 
-![N-byte%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%2007432305420b4a5ba50090c857d3eea1/Untitled%201.png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled%202.png)
+![N-byte%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%2007432305420b4a5ba50090c857d3eea1/Untitled%201.png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled%201.png)
 
-![N-byte%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%2007432305420b4a5ba50090c857d3eea1/Untitled%202.png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled%203.png)
+![N-byte%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%2007432305420b4a5ba50090c857d3eea1/Untitled%202.png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled%202.png)
 
 ![N-byte%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%2007432305420b4a5ba50090c857d3eea1/Untitled%203.png](N-byte%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%2007432305420b4a5ba50090c857d3eea1/Untitled%203.png)
 
