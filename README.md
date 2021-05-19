@@ -20,16 +20,13 @@
 
 <hr>
 
-
-## 진행상황 정리 (20.10.30 완료)
-
 ### 0. 사용한 데이터(2020.07.06)
     - 리눅스의 유틸리티패키지 Binutils2.34, Coreutils-8.32 GCC컴파일러 버전별 6,7,8,9 추출 완료
     
 ### 1. gcc컴파일러버전별로 Symbol Table을 통한 함수시작과 나머지 바이너리 라벨링
     - 각 유틸리티패키지에 대해서, 각 gcc컴파일러버전별로 실행파일(ELF포멧형식) Symbol Table을 통한 함수시작 바이너리와 나머지 부분에 0과 1로 라벨링
     - 이 후에 바이너리과 라벨링 맵핑에 대한 Annotation파일을 구성
-    
+   
 ### 2.Reference paper review (~ 20.04.15) 
     - 1. (USENIX)Recognizing functions in binaries with neural networks_augsut 2015 
     - 2. Recognizing Functions in Binaries with Neural Networks 요약본
@@ -106,30 +103,11 @@
       
 <hr>
 
-### 10. 최종 결과 exe 프로그램 만들기 ( ~ 09.26 )
-    - 실험결과 파일 : prediction 폴더 산하 파일들
-    - 현재 실험 결과 모델 저장 및 모델 내장 후 자동 추론 프로그램 만들기
-    - binutils 학습, coreutils test 진행 ==> 다소 결과가 떨어지는 모습을 보임.
-    - binutils + coreutils 학습 kfold ==> 거의 99%
-    - binutils + coreutils 학습 후 동일데이터 prediction ==> 97% 정도
-    - 최종적 gcc 상위버전 현재 6으로 진행, 7,8,9 에 대해서 실험 예정중
-    
-### 11. 지속적 보완 ( 9 ~ 10월 중)
-    - 이전 KFold 학습데이터 : 각 실행파일 중 코드섹션의 함수 부분만 학습 -> 전체 섹션에 대한 모든 함수 부분 학습
-    - 소스코드 : Prediction2/bin_core_gcc6_op0_Input Sequence 32_hidden units 48x2 ~ o3
-    
-### 12. 향후 보완점 및 결과 보고서 피드백 내용 (내부피드백 + 담당자피드백)
-    - 더 많은 바이너리 확보시 더 일반적인 모델을 만들 수 있음 (기계학습의 기본 원리이기도 함)
-    - 모델 실행시 바이너리의 어떠한 실행파일의 어떠한 함수가 주로 오답이였는지, 경향에 대해 알 수 있다면 향후 해당함수에 더 공략법을 세울 수 있을 것임
-    - 해당 방식에 대한 하이퍼 파라미터 외에 모델 구조에 대한 실험 비교가 진행됬으면 어떨까 하는
-    - 하이퍼 파라미터에 대해 현재는 노가다 였음. 하이퍼 파라미터 최적화에 대한 알고리즘이나 좋은 논문이 있다면 해당 과정에 소요되는 시간을 더 줄일수 있을 것.
-    - Window나 arm(모바일 아키텍쳐) 의 경우에는 어떨까 하는 궁금증
-
-### 13. 바이너리 컴파일러별 옵션별 분류 탐지 모델과 함수 정보 추출 모델 pipline 실행프로그램 제작완료(~20.10.26) 
+### 10. 바이너리 컴파일러별 옵션별 분류 탐지 모델과 함수 정보 추출 모델 pipline 실행프로그램 제작완료(~20.10.26) 
 다운로드 링크
 https://drive.google.com/drive/folders/1Ryfnt_CM2J8cL2yU2hB_xtr-P97viC9N?usp=sharing
 
-### 14.  연구 종료 (~ 20.10.26)
+### 11.  연구 종료 (~ 20.10.26)
   - kfold 에서 train (적당한 epoch 학습) + validation 으로 변경
   - 최적 hyperparameter 값 찾기 
   - 최적화 버전(o0 ~ o3) 각각 vs 최적화 통합 버전 비교 -> 최적화 통합 버전에서 조금더 좋은 결과를 보임
