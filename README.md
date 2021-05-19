@@ -27,7 +27,7 @@
     - 5. Extracting Compiler Provenance from Program Binaries
     - 6. Neural Reverse Engineering of Stripped Binaryies
     
-<hr>
+
 ### 1. 데이터 추출(1차: 2020.05.06 / 2차: 2020.06.23)
     - 리눅스의 유틸리티패키지 Binutils2.34, Coreutils-8.32 GCC컴파일러 버전별 6,7,8,9 추출 완료
     - 1차 : 함수타입의 바이너리 98%이상을 .text섹션에서 추출
@@ -48,16 +48,16 @@
 
   
 
-<hr> 
+
 ### 5. 최종 데이터 구성 전처리 (Preprocesing) (~ 20.07.07)
 
         
-<hr>
+
 
 ### 6. 다양한 하이퍼 파라미터로 실험 진행 (~ 20.07.22)
 
      
-<hr> 
+
 
 ### 7. 다양한 하이퍼 파라미터로 실험 진행2 (~ 20.07.29) 
 
