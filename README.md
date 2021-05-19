@@ -60,44 +60,44 @@
     ![Untitled.png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled.png)
 
 
-    - 리눅스의 유틸리티패키지 Binutils2.34, Coreutils-8.32 GCC컴파일러 버전별 6,7,8,9 추출 완료
+### 2. [리눅스의 유틸리티패키지 Binutils2.34, Coreutils-8.32 GCC컴파일러 버전별 6,7,8,9 추출 완료](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Extraction%20Data)
     - 1차 : 함수타입의 바이너리 98%이상을 .text섹션에서 추출
     - 2차 : 함수타입이외 모든 .text섹션의 바이너리를 추출
     
-### 2. gcc컴파일러버전별로 Symbol Table을 통한 함수시작과 나머지 바이너리 라벨링
+### 3. gcc컴파일러버전별로 Symbol Table을 통한 함수시작과 나머지 바이너리 라벨링
     - 각 유틸리티패키지에 대해서, 각 gcc컴파일러버전별로 실행파일(ELF포멧형식) Symbol Table을 통한 함수시작 바이너리와 나머지 부분에 0과 1로 라벨링
     - 이 후에 바이너리과 라벨링 맵핑에 대한 Annotation파일을 구성
     - HEX 바이너리에 대해서 One-Hot Encoding을 통해서 벡터화
     
 
-### 3. Bidirectional RNN 구현 (1차:2020.05.08 / 2차: 20.06.05 )
+### 4. Bidirectional RNN 구현 (1차:2020.05.08 / 2차: 20.06.05 )
     - 1차 : One-to-One RNN / BIRANN Model 구현
     - 2차 : Many-to-Many BIRNN Model구현
 
 
-### 4. 불균형 데이터 문제 Imbalanced Data(Long-Tailed Problem)에 대한 솔루션 N-byte기법 제시  (~ 20.06.23)
+### 5. 불균형 데이터 문제 Imbalanced Data(Long-Tailed Problem)에 대한 솔루션 N-byte기법 제시  (~ 20.06.23)
 
   
 
 
-### 5. 최종 데이터 구성 전처리 (Preprocesing) (~ 20.07.07)
+### 6. 최종 데이터 구성 전처리 (Preprocesing) (~ 20.07.07)
 
         
 
 
-### 6. 다양한 하이퍼 파라미터로 실험 진행 (~ 20.07.22)
+### 7. 다양한 하이퍼 파라미터로 실험 진행 (~ 20.07.22)
 
      
 
 
-### 7. 다양한 하이퍼 파라미터로 실험 진행2 (~ 20.07.29) 
+### 8. 다양한 하이퍼 파라미터로 실험 진행2 (~ 20.07.29) 
 
       
 <hr>
 
-### 8. 바이너리 컴파일러별 옵션별 분류 탐지 모델과 함수 정보 추출 모델 pipline 실행프로그램 제작완료(~20.10.26) 
+### 9. 바이너리 컴파일러별 옵션별 분류 탐지 모델과 함수 정보 추출 모델 pipline 실행프로그램 제작완료(~20.10.26) 
 다운로드 링크
 https://drive.google.com/drive/folders/1Ryfnt_CM2J8cL2yU2hB_xtr-P97viC9N?usp=sharing
 
-### 9.  연구 종료 (~ 20.10.26)
+### 10.  연구 종료 (~ 20.10.26)
   
