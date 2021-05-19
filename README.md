@@ -70,7 +70,7 @@
     - HEX 바이너리에 대해서 One-Hot Encoding을 통해서 벡터화
     
 
-### 4. Bidirectional RNN 구현 (1차:2020.05.08 / 2차: 20.06.05 )
+### [4. Bidirectional RNN 구현 (1차:2020.05.08 / 2차: 20.06.05 )](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Model)
     - 1차 : One-to-One RNN / BIRANN Model 구현
     - 2차 : Many-to-Many BIRNN Model구현
 
