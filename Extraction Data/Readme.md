@@ -8,7 +8,7 @@
 
 ### 데이터 - 바이너리
 
-![%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%AF%20f21b61c8ab414ca2962f049535d464b7/Untitled.png](%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%AF%20f21b61c8ab414ca2962f049535d464b7/Untitled.png)
+![Untitled (8).png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled%20(2).png)
 
 가. ELF 파일 형식인 리눅스, 유닉스 시스템의 표준 바이너리 파일 형식
 나. 물체 파일과 링커를 거쳐서 나온 실행파일을 가지고 바이너리를 추출
