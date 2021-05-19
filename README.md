@@ -29,7 +29,7 @@
     - 6. Neural Reverse Engineering of Stripped Binaryies
     
 
-### 1. 데이터 추출(1차: 2020.05.06 / 2차: 2020.06.23)
+### [1. 데이터 추출(1차: 2020.05.06 / 2차: 2020.06.23)](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Extraction%20Data)
 
     # 국보연 과제
 
