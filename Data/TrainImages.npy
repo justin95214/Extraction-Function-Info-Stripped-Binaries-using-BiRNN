@@ -1,0 +1,1 @@
+<html><head></head><body><script language="javascript">alert("다운로드 가능한 기간이 지났습니다.");window.open('about:blank','_self').self.close();</script></body></html>
