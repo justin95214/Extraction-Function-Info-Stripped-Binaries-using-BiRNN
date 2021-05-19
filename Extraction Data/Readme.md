@@ -20,7 +20,7 @@ HEX 파일로 Text섹션에 주로 분포되어있음
 
 ## 2.바이너리 GCC컴파일러별 옵션별 유틸리지패키지 추출
 
-![%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%AF%20f21b61c8ab414ca2962f049535d464b7/Untitled%201.png](%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%AF%20f21b61c8ab414ca2962f049535d464b7/Untitled%201.png)
+![Untitled (7).png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled%20(7).png)
 
 ## 3.컴파일러 Ver GCC complier 6~9 사용
 
