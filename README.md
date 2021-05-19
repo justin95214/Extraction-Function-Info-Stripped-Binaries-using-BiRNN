@@ -57,7 +57,7 @@
     - 인라인되어 제거되는 함수도 있을 수 있음
     - 컴파일러 종류와 최적화 옵션에 따라 다르게 바이너리가 나옴, 특정 컴파일러나 최적화에 따라 함수 검출이 어려움
 
-    ![%E1%84%80%E1%85%AE%E1%86%A8%E1%84%87%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20d16752ce90f442fcaa80ee57da70fb47/Untitled.png](%E1%84%80%E1%85%AE%E1%86%A8%E1%84%87%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20d16752ce90f442fcaa80ee57da70fb47/Untitled.png)
+    ![Untitled.png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled.png)
 
 
     - 리눅스의 유틸리티패키지 Binutils2.34, Coreutils-8.32 GCC컴파일러 버전별 6,7,8,9 추출 완료
