@@ -39,7 +39,7 @@
     - 이 후에 바이너리과 라벨링 맵핑에 대한 Annotation파일을 구성
     - HEX 바이너리에 대해서 One-Hot Encoding을 통해서 벡터화
     
-<hr>
+
 ### 3. Bidirectional RNN 구현 (1차:2020.05.08 / 2차: 20.06.05 )
     - 1차 : One-to-One RNN / BIRANN Model 구현
     - 2차 : Many-to-Many BIRNN Model구현
