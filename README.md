@@ -19,21 +19,21 @@
 #### 키워드 #스트립된 바이너리 #바이너리 분석 #함수 정보 탐지
 
 <hr>
-
-### 0. 사용한 데이터(2020.07.06)
-    - 리눅스의 유틸리티패키지 Binutils2.34, Coreutils-8.32 GCC컴파일러 버전별 6,7,8,9 추출 완료
-    
-### 1. gcc컴파일러버전별로 Symbol Table을 통한 함수시작과 나머지 바이너리 라벨링
-    - 각 유틸리티패키지에 대해서, 각 gcc컴파일러버전별로 실행파일(ELF포멧형식) Symbol Table을 통한 함수시작 바이너리와 나머지 부분에 0과 1로 라벨링
-    - 이 후에 바이너리과 라벨링 맵핑에 대한 Annotation파일을 구성
-   
-### 2.Reference paper review (~ 20.04.15) 
+### 0. Reference paper review (~ 20.04.24) 
     - 1. (USENIX)Recognizing functions in binaries with neural networks_augsut 2015 
     - 2. Recognizing Functions in Binaries with Neural Networks 요약본
     - 3. BinComp: A stratified approach to compiler provenance Attribution
     - 4. Byteweight: Learning to Recongnize Functions in Binary Code
     - 5. Extracting Compiler Provenance from Program Binaries
     - 6. Neural Reverse Engineering of Stripped Binaryies
+
+### 1. 데이터 추출(2020.07.06)
+    - 리눅스의 유틸리티패키지 Binutils2.34, Coreutils-8.32 GCC컴파일러 버전별 6,7,8,9 추출 완료
+    
+### 2. gcc컴파일러버전별로 Symbol Table을 통한 함수시작과 나머지 바이너리 라벨링
+    - 각 유틸리티패키지에 대해서, 각 gcc컴파일러버전별로 실행파일(ELF포멧형식) Symbol Table을 통한 함수시작 바이너리와 나머지 부분에 0과 1로 라벨링
+    - 이 후에 바이너리과 라벨링 맵핑에 대한 Annotation파일을 구성
+   
     
 <hr>
 
