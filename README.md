@@ -20,7 +20,7 @@
 #### 키워드 #스트립된 바이너리 #바이너리 분석 #함수 정보 탐지
 <hr>
 
-### 0. Reference paper review (~ 20.04.24) 
+### [0. Reference paper review (~ 20.04.24)](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Reference)
     - 1. (USENIX)Recognizing functions in binaries with neural networks_augsut 2015 
     - 2. Recognizing Functions in Binaries with Neural Networks 요약본
     - 3. BinComp: A stratified approach to compiler provenance Attribution
