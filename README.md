@@ -67,7 +67,7 @@
 ### [5. 불균형 데이터 문제 Imbalanced Data(Long-Tailed Problem)에 대한 솔루션 N-byte기법 제시  (~ 20.06.23)](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Model)
   
 ### 6. 데이터 구성 전처리 (Preprocesing) (~ 20.07.07)
-
+| 왼쪽 정렬 | 
 |:-------------------------:|
 |1차 : input을 1개의단위로 One-Hot 인코딩만 진행|
 |2차 : input을 n개의 Window형식으로 전행|
