@@ -72,7 +72,7 @@
     - 3차 : mnay-2-many를 위한 n개씩 input을 위한 전처리 진행
     - 4차 : n-byte 기법 활용
         
-### 7. 다양한 하이퍼 파라미터로 실험 진행 (~ 20.07.22)
+### [7. 다양한 하이퍼 파라미터로 실험 진행 (~ 20.07.22)](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Document)
     - GCC컴파일러별 옵션별로 Input Sequence길이 최적점을 찾기위해서 통계적으로 실시
     - Hidden Layer의 너비와 깊이를 변경하면서 시도
      
