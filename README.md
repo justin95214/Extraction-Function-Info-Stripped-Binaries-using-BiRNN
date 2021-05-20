@@ -2,7 +2,7 @@
 
 ### ■ Core Algorithm Skill
 #### 1. 함수 정보 추출기술
-#### 2. Class Imbalance Problem(Long-Tailed Problem)
+#### 2. Class Imbalanced Problem(Long-Tailed Problem)
 #### 3. Bidirectional RNN model
 
 
