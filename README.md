@@ -67,6 +67,23 @@
 ### [5. 불균형 데이터 문제 Imbalanced Data(Long-Tailed Problem)에 대한 솔루션 N-byte기법 제시  (~ 20.06.23)](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Model)
   
 ### 6. 데이터 구성 전처리 (Preprocesing) (~ 20.07.07)
+
+### N-byte 기법
+
+####기존 불균형데이터 전처리 솔루션을 보완한, 시퀀스별 데이터 재구성기법
+
+- 오버샘플링과 Under Sampling방식은 Minor/Major 클래스 바이너리별로 무작위성이 Context이 사라져, RNN학습을 못함
+- Weight balancing을 적용 결과, 학습데이터가 너무 극한 불균형데이터여서, 효과가 어려움
+
+◆ 기존 Imbalanced 솔루션
+
+▲ Over Sampling, Under Sampling 방식
+- Under Sampling : 높은 비중을 차지하는 클래스의 값들을 임의로 제거하는 방법
+- Over Sampling : 소수 클래스의 값들을 복제하여, 그 수를 늘리는 방법
+
+▲ Weight balancing 방식
+- 모델을 훈련하는 동안 소수 클래스와 다수 클래스에, 클래스의 비율에 대해 가중치를 달리 두는 방법
+
 | STEP | 
 |:-------------------------|
 |1차 : input을 1개의단위로 One-Hot 인코딩만 진행|
