@@ -67,13 +67,13 @@
 ### [5. 불균형 데이터 문제 Imbalanced Data(Long-Tailed Problem)에 대한 솔루션 N-byte기법 제시  (~ 20.06.23)](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Model)
   
 ### 6. 데이터 구성 전처리 (Preprocesing) (~ 20.07.07)
-Solarized dark             |
-:-------------------------|
-1차 | input을 1개의단위로 One-Hot 인코딩만 진행|
-2차 | input을 n개의 Window형식으로 전행|
-3차 | mnay-2-many를 위한 n개씩 input을 위한 전처리 진행|
-4차 | n-byte 기법 활용|
-5차 | [컴파일러 옵션 버전을 알 수없는 상황으로, 모든 옵션을 통합하여, n-byte를 적용하여 데이터를 Concat시킴](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Extraction%20Data/concat_binary_data)|
+
+|:-------:|:-------------------------|
+|1차 | input을 1개의단위로 One-Hot 인코딩만 진행|
+|2차 | input을 n개의 Window형식으로 전행|
+|3차 | mnay-2-many를 위한 n개씩 input을 위한 전처리 진행|
+|4차 | n-byte 기법 활용|
+|5차 | [컴파일러 옵션 버전을 알 수없는 상황으로, 모든 옵션을 통합하여, n-byte를 적용하여 데이터를 Concat시킴](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Extraction%20Data/concat_binary_data)|
         
 ### [7. 다양한 하이퍼 파라미터로 실험 진행 (~ 20.07.22)](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Document)
     - GCC컴파일러별 옵션별로 Input Sequence길이 최적점을 찾기위해서 통계적으로 실시
