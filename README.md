@@ -28,8 +28,7 @@
     - 5. Extracting Compiler Provenance from Program Binaries
     - 6. Neural Reverse Engineering of Stripped Binaryies
     
-
-### [1. 데이터 추출(1차: 2020.05.06 / 2차: 2020.06.23)](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Extraction%20Data)
+### [1. 데이터 추출(1차: 2020.05.06 / 2차: 2020.06.23 / 3차: 2020.07.28)](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Extraction%20Data)
 
 ## **스트립된(stripped) 바이너리 분석의 어려움**
 
@@ -51,8 +50,9 @@
 
 
 ### [2. 리눅스의 유틸리티패키지 Binutils2.34, Coreutils-8.32 GCC컴파일러 버전별 6,7,8,9 추출 완료](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Extraction%20Data)
-    - 1차 : 함수타입의 바이너리 98%이상을 .text섹션에서 추출
-    - 2차 : 함수타입이외 모든 .text섹션의 바이너리를 추출
+    - 1차 : header파일을 포함한 모든 바이너리를 추출
+    - 2차 : 함수타입의 바이너리 98%이상을 .text섹션에서 추출
+    - 3차 : 함수타입이외 모든 .text섹션의 바이너리를 추출
     
 ### 3. gcc컴파일러버전별로 Symbol Table을 통한 함수시작과 나머지 바이너리 라벨링
     - 각 유틸리티패키지에 대해서, 각 gcc컴파일러버전별로 실행파일(ELF포멧형식) Symbol Table을 통한 함수시작 바이너리와 나머지 부분에 0과 1로 라벨링
@@ -64,28 +64,22 @@
     - 1차 : One-to-One RNN / BIRANN Model 구현
     - 2차 : Many-to-Many BIRNN Model구현
 
-
 ### [5. 불균형 데이터 문제 Imbalanced Data(Long-Tailed Problem)에 대한 솔루션 N-byte기법 제시  (~ 20.06.23)](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Model)
-
   
-
-
-### 6. 최종 데이터 구성 전처리 (Preprocesing) (~ 20.07.07)
-
+### 6. 데이터 구성 전처리 (Preprocesing) (~ 20.07.07)
+    - 1차 : input을 1개의단위로 One-Hot 인코딩만 진행
+    - 2차 : input을 n개의 Window형식으로 전행
+    - 3차 : mnay-2-many를 위한 n개씩 input을 위한 전처리 진행
+    - 4차 : n-byte 기법 활용
         
-
-
 ### 7. 다양한 하이퍼 파라미터로 실험 진행 (~ 20.07.22)
-
+    - GCC컴파일러별 옵션별로 Input Sequence길이 최적점을 찾기위해서 통계적으로 실시
+    - Hidden Layer의 너비와 깊이를 변경하면서 시도
      
-
-
-### 8. 다양한 하이퍼 파라미터로 실험 진행2 (~ 20.07.29) 
-
       
 <hr>
 
-### 9. 바이너리 컴파일러별 옵션별 분류 탐지 모델과 함수 정보 추출 모델 pipline 실행프로그램 제작완료(~20.10.26) 
+### 8. 바이너리 컴파일러별 옵션별 분류 탐지 모델과 함수 정보 추출 모델 pipline 실행프로그램 제작완료(~20.10.26) 
 다운로드 링크
 https://drive.google.com/drive/folders/1Ryfnt_CM2J8cL2yU2hB_xtr-P97viC9N?usp=sharing
 
