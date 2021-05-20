@@ -50,9 +50,9 @@
 
 
 ### [2. 리눅스의 유틸리티패키지 Binutils2.34, Coreutils-8.32 GCC컴파일러 버전별 6,7,8,9 추출 완료](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Extraction%20Data)
-    - 1차 : header파일을 포함한 모든 바이너리를 추출
-    - 2차 : 함수타입의 바이너리 98%이상을 .text섹션에서 추출
-    - 3차 : 함수타입이외 모든 .text섹션의 바이너리를 추출
+    - 1차 : header파일을 포함한 모든 바이너리를 추출 - Accuracy : 12%
+    - 2차 : 함수타입의 바이너리 98%이상을 .text섹션에서 추출 - Accuracy : 60~78 %
+    - 3차 : 함수타입이외 모든 .text섹션의 바이너리를 추출 - Accuracy : 96 % 이상
     
 ### 3. gcc컴파일러버전별로 Symbol Table을 통한 함수시작과 나머지 바이너리 라벨링
     - 각 유틸리티패키지에 대해서, 각 gcc컴파일러버전별로 실행파일(ELF포멧형식) Symbol Table을 통한 함수시작 바이너리와 나머지 부분에 0과 1로 라벨링
@@ -78,7 +78,8 @@
 ### [7. 다양한 하이퍼 파라미터로 실험 진행 (~ 20.07.22)](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Document)
     - GCC컴파일러별 옵션별로 Input Sequence길이 최적점을 찾기위해서 통계적으로 실시
     - Hidden Layer의 너비와 깊이를 변경하면서 시도
-     
+    - binutils + coreutils 학습 k-fold검증 :98 ~ 99%
+    - binutils + coreutils 학습 k-fold검증 통합 데이터 : 98% 
 <hr>
 
 ### 8. 바이너리 컴파일러별 옵션별 분류 탐지 모델과 함수 정보 추출 모델 pipline 실행프로그램 제작완료(~20.10.26) 
