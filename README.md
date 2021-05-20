@@ -31,16 +31,6 @@
 
 ### [1. 데이터 추출(1차: 2020.05.06 / 2차: 2020.06.23)](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Extraction%20Data)
 
-    # 국보연 과제
-
-# 필요성 및 목표
-
-```
-- 기계학습 기반의 스트립된(stripped) 리눅스 바이너리 분석 기술
-- 스트립 바이너리 제작에 사용된 컴파일러 탐지 기술
-- 스트립된 바이너리에서 함수 위치 탐지 기술
-```
-
 ## **스트립된(stripped) 바이너리 분석의 어려움**
 
 가. 스트립된 바이너리에는 디버그 심볼이 포함되어 있지 않기 때문에 분석이 쉽지 않음
@@ -60,7 +50,7 @@
     ![Untitled.png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled.png)
 
 
-### 2. [리눅스의 유틸리티패키지 Binutils2.34, Coreutils-8.32 GCC컴파일러 버전별 6,7,8,9 추출 완료](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Extraction%20Data)
+### [2. 리눅스의 유틸리티패키지 Binutils2.34, Coreutils-8.32 GCC컴파일러 버전별 6,7,8,9 추출 완료](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/tree/master/Extraction%20Data)
     - 1차 : 함수타입의 바이너리 98%이상을 .text섹션에서 추출
     - 2차 : 함수타입이외 모든 .text섹션의 바이너리를 추출
     
