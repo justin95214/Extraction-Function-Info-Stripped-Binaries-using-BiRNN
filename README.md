@@ -86,5 +86,5 @@
 다운로드 링크
 https://drive.google.com/drive/folders/1Ryfnt_CM2J8cL2yU2hB_xtr-P97viC9N?usp=sharing
 
-### 10.  연구 종료 (~ 20.10.26)
+### 9.  연구 종료 (~ 20.10.26)
   
