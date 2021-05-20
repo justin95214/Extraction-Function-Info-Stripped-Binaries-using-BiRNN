@@ -44,5 +44,5 @@
 ![%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%AF%20f21b61c8ab414ca2962f049535d464b7/Untitled%204.png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled%20(7).png)
 
 3. 리눅스 명령어 hexdump를 통해, 함수의 시작 주소와 크기를 통해 바이너리를 16진수로 출력함
-
+4. ELFTools 라이브러리를 활용해서, 함수별로 시작주소에 라벨링 1로 아닌 나머지를 0으로 진행
 ![%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%AF%20f21b61c8ab414ca2962f049535d464b7/Untitled%205.png](https://github.com/justin95214/Extraction-Function-Info-Stripped-Binaries-using-BiRNN/blob/master/Extraction_img/Untitled%20(8).png)
